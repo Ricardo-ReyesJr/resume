@@ -1,23 +1,89 @@
 * {
-    font-family: monospace;
+    font-family: "Special Elite";
+    font-weight: 400;
+    font-style: normal;
 }
+
+body {
+    padding: 60px 20px;
+    box-sizing: border-box;
+  }
+
 h1 {
     border-bottom: 2px solid black;
     padding: 5px;
 }
-h2 {
-    border-bottom: 1px solid black;
-    padding: 5px;
-}
 
-.professionalSum {
-    border-bottom: 2px solid black;
+.jobOne {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+.jobTwo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.jobThree {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.school {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* paper background  code */
 
+.postercontainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    z-index: -1;
+  }
 /*
-.educate, .skills, .experience {
-    border: 1px solid black;
-    margin: 0 10px;
-    padding: 0 5px;
+.poster {
+    min-width: 15rem;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+    background-color: white;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 00.25rem);
+
+    perspective: 1000px;
+
+    &:after {
+    }
+    &:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+
+        width: 100%;
+        height: 100%;
+
+        content: "";
+
+        background-image: linear-gradient(265deg, rgba(0, 0, 0, 0.2), transparent 15%), linear-gradient(5deg, rgba(0, 0, 0, 0.2), transparent 15%),
+        linear-gradient(-5deg, rgba(0, 0, 0, 0.1), transparent 15%),
+        linear-gradient(5deg, rgba(0, 0, 0, 0.1), transparent 15%),
+        linear-gradient(-265deg, rgba(0, 0, 0, 0.2), transparent 15%),
+        linear-gradient(-5deg, rgba(0, 0, 0, 0.2), transparent 15%),
+        linear-gradient(266deg, rgba(0, 0, 0, 0.2), transparent 15%);
+
+        background-size: 50% 33.3333%, 50% 33.3333%, 50% 33.3333%, 50% 33.3333%,
+    50% 33.3333%, 50% 33.3333%, 50% 33.3333%;
+    
+    background-position: left top, left top, right top, left center,
+      right center, right center, left bottom;
+    }
 }
 */
